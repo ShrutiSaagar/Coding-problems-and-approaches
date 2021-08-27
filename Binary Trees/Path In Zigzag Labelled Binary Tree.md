@@ -2,6 +2,7 @@
 [Leetcode problem](https://leetcode.com/problems/path-in-zigzag-labelled-binary-tree/) - [My Leetcode soln](https://leetcode.com/problems/path-in-zigzag-labelled-binary-tree/discuss/1428745/Java-O(n)-simple-recursive-solution-with-explanation)
 
 **Idea / Approach**
+
 So I would start to approach the problem from the information we have.
 
 1. We know the id of the node whose path is to be found.
@@ -10,7 +11,7 @@ So I would start to approach the problem from the information we have.
 1. So the position of the current node in the level alone would be **label - (num nodes until prev level)**
 1. So if the node is in xth position in its level, the parent would be in **(x-1)/2** th position from the end in its level . Or we can say **(x-1)/2 parents will be there before the desired parent in that level**.
 1. The end in its level will have id of? Thats right from point 3 we get the max id in that level and we have to reduce the number of parents that come before the current node as **(2^(h-1)-1-(x-1)/2)**.
->Hope you find it useful!! :)
+Hope you find it useful!! :)
 
 ```java
 class Solution {
