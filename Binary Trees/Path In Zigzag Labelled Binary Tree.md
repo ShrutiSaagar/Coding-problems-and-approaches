@@ -1,5 +1,5 @@
-**Leetcode - 1104. Path In Zigzag Labelled Binary Tree **
-[Leetcode problem](https://leetcode.com/problems/path-in-zigzag-labelled-binary-tree/) [My Leetcode soln](https://leetcode.com/problems/path-in-zigzag-labelled-binary-tree/discuss/1428745/Java-O(n)-simple-recursive-solution-with-explanation)
+#Leetcode - 1104. Path In Zigzag Labelled Binary Tree
+[Leetcode problem](https://leetcode.com/problems/path-in-zigzag-labelled-binary-tree/) - [My Leetcode soln](https://leetcode.com/problems/path-in-zigzag-labelled-binary-tree/discuss/1428745/Java-O(n)-simple-recursive-solution-with-explanation)
 
 **Idea / Approach**
 So I would start to approach the problem from the information we have.
